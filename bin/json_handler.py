@@ -69,7 +69,7 @@ def write_list_json_file(file_name,data):
         creates/rewrites json file for chart data
 '''
 def write_to_file_json(file_name,data):
-    output_file_loc = parent_dir + "\\output\\" + file_name +".json"
+    output_file_loc = parent_dir + "\\json-score\\" + file_name +".json"
     temp_list = "["
 
     print("generating file:",file_name+".json")
